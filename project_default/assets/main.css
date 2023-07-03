@@ -1,0 +1,14 @@
+#navbar li {
+    list-style: none;
+    margin: 15px;
+    display: inline-block;
+}
+#navbar a {
+    color: white;
+    text-decoration: none;
+}
+.sect {
+    border: 2px solid lightgrey;
+    margin: 10px;
+    padding-left: 15px;
+}

@@ -8,18 +8,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>test default</title>
-        <!--
-            <style>
-            li {
-                list-style: none;
-                margin: 15px;
-            }
-            a {
-                color: white;
-                text-decoration: none;
-            }
-            </style>
-    -->
+        <link rel="stylesheet" href="./assets/main.css">
     </head>
     <body>
         <header 
@@ -29,7 +18,7 @@
             text-transform: uppercase;
             padding: 25px;">
             <h1 id="title">Two thousand twenty three plan</h1>
-            <div class="navbar">
+            <div id="navbar">
                 <ul>
                     <li>
                         <a href="index.html">Home</a>
@@ -43,14 +32,20 @@
                 </ul>
             </div>
         </header>
+
         <main>
         <h2>My data plan</h2>
+
+        <div class="sect">
         <h3>Frontend</h3>
         <ul> 
             <li>HTML</li>
             <li>CSS</li>
             <li>JS</li>
         </ul>
+        </div>
+
+        <div class="sect">
         <h3>Backend</h3>
         <ul>
             <li>Node</li>
@@ -59,29 +54,55 @@
             <li>PHP</li>
             <li>Ruby</li>
         </ul>
+        </div>
+
+        <div class="sect">
         <h3>Database</h3>
         <ul>
             <li>SQL</li>
             <li>MongoDB</li>
         </ul>
+        </div>
+
+        <div class="sect">
         <h3>Additional</h3>
         <ul>
             <li>Design soft (Figma)</li>
             <li>Git (Version control tool)</li>
         </ul>
+        </div>
 
-        <h4>List of Git basic commands</h6>
+        <div>
+        <h4>List of Git basic commands</h4>
         <p>
             cd - change directory / cd.. - exit dir<br>
             ls - list of items + -la - detailed list <br>
             pwd - present working directory<br>
-            mkdir - make direction (folder)
-            touch file.txt - create file
-            rm -rf - remove file
-            nano file.txt - open document for modifying
-            cat file.txt - open doc for read
+            mkdir - make direction (folder)<br>
+            touch file.txt - create file<br>
+            rm -rf - remove file<br>
+            nano file.txt - open document for modifying<br>
+            cat file.txt - open doc for read<br>
         </p>
-        <h4><a href="Gitcom.html">Git&GitHub commands</a></h4>
+        </div>
+
+        <div>
+        <h4>Git&GitHub commands</h4>
+        <p>
+        git init <br>
+        git status <br>
+        git log <br>
+        git add filename <br>
+        git commit -m "message" <br>
+        git add remote origin remote_repo_url <br>
+        git push -u origin master <br>
+
+        git branch branchname <br>
+        git branch <br>
+        git merge <br>
+        git pull <br>
+        </p>
+        </div>
 
         <IMG src="./images/html.png" height="150px"/>
 
