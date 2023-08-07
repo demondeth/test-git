@@ -8,6 +8,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>test default</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="./assets/main.css">
         <script src="https://kit.fontawesome.com/c371e49325.js" crossorigin="anonymous"></script>
     </head>
@@ -30,10 +33,10 @@
         </header>
 
         <main>
-        <h2>My data plan</h2>
+        <h2>My projects</h2>
 
         <div class="mainlist">
-            <div class="sect">
+            <div class="sect" id="frontend_sect">
                 <h3>Frontend</h3>
                 <ul> 
                     <li>HTML</li>
@@ -42,7 +45,7 @@
                 </ul>
                 </div>
         
-                <div class="sect">
+                <div class="sect" id="backend_sect">
                 <h3>Backend</h3>
                 <ul>
                     <li>Node</li>
@@ -53,7 +56,7 @@
                 </ul>
                 </div>
         
-                <div class="sect">
+                <div class="sect" id="data_sect">
                 <h3>Database</h3>
                 <ul>
                     <li>SQL</li>
@@ -61,7 +64,7 @@
                 </ul>
                 </div>
         
-                <div class="sect">
+                <div class="sect" id="additional_sect">
                 <h3>Additional</h3>
                 <ul>
                     <li>Design soft (Figma)</li>
@@ -70,8 +73,27 @@
                 </div>
         </div>
 
+        <div class="textsect">
+            <h3>Specific inquiries</h3>
+            <p>
+                How does the Elementor work? I bet there are much easier ways to construct a website other than manually code CSS.
+            </p>
+        </div>
+
+        <div class="notes">
+            <h4>Notes:</h4>
+            <p>
+                Need to make the page width adjustible (is it now?)
+            </p>
+        </div>
+
+        <details>
+            <summary>See More</summary>
+            This text will be hidden if your browser supports it.
+          </details>
+
         <div>
-        <h4>List of Git basic commands</h4>
+        <h4>List of Git basic console commands</h4>
         <p>
             cd - change directory / cd.. - exit dir<br>
             ls - list of items + -la - detailed list <br>
@@ -85,31 +107,38 @@
         </div>
 
         <div>
-        <h4>Git&GitHub commands</h4>
-        <p>
-        git init <br>
-        git status <br>
-        git log <br>
-        git add filename <br>
-        git commit -m "message" <br>
-        git add remote origin remote_repo_url <br>
-        git push -u origin master <br>
-
-        git branch branchname <br>
-        git branch <br>
-        git merge <br>
-        git pull <br>
-        </p>
+        <h4>Git Terminal commands for VSCode</h4>
+            <div>
+                <div>
+                    <p>
+                        git init <br>
+                        git status <br>
+                        git log <br>
+                        git add filename <br>
+                        git commit -m "message" <br>
+                        git add remote origin remote_repo_url <br>
+                        git push -u origin master <br>
+                
+                        git branch branchname <br>
+                        git branch <br>
+                        git merge <br>
+                        git pull <br>
+                    </p>
+                </div>
+                <div>
+                    <ol>
+                        <li>git status</li>
+                        <li>git add .</li>
+                        <li>git commit -m "message"</li>
+                        <li>git push</li>
+                    </ol>
+                </div>
+            </div>
         </div>
-
         <IMG src="./images/html.png" height="150px"/>
         </main>
 
-        <footer 
-            style="background-color: rgb(65, 65, 65); 
-            color: white; 
-            text-align: center; 
-            padding: 15px;">
+        <footer>
             <div>
                 <p>demondeth | Copyright &copy; 2023</p>
             </div>

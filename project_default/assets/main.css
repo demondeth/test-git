@@ -1,18 +1,30 @@
-.header {
-    background-color: rgb(65, 65, 65); 
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #DBE8E5;
+}
+
+header {
+    background-color: #3E7F9B; 
             color: white; 
             text-align: center; 
             text-transform: uppercase;
             padding: 25px;
 }
+
+main{
+    margin: 0 60px 0 60px;
+    max-width: 1000px;
+    margin: auto;
+}
+
 #navbar {
     display: flex;
     justify-content: center;
 }
 #navbar li {
     border-radius: 20px;
-    padding: 10px;
-    background-color: lightgrey;
+    padding: 10px 25px 10px 25px;
+    background-color: #DBE8E5;
     list-style: none;
     margin: 0px 60px 0px 60px;
     display: inline-block;
@@ -20,9 +32,10 @@
 #navbar a {
     color: black;
     text-decoration: none;
+    font-weight: 600;
 }
 
-/*data plan style*/
+/*projects grid style*/
 .mainlist {
     display: flex;
     justify-content: center;
@@ -30,14 +43,52 @@
 }
 .sect {
     display: inline-block;
-    border-radius: 5px;
-    background-color: lightgrey;
-    height: 160px;
+    border-radius: 15px;
+    height: 165px;
     width: 25%;
     margin: 10px;
     padding: 15px;
 }
 
 .sect li{
-    list-style: none;
+    list-style: disc;
+}
+#frontend_sect {
+    background-color: #6793b9;
+}
+#backend_sect {
+    background-color: #6675A9;
+}
+#data_sect{
+    background-color: #826DA4;
+}
+#additional_sect{
+    background-color: #B05B82;
+}
+
+/*inquiries*/
+.textsect{
+    padding: 10px 0 10px 0;
+}
+
+/*notes*/
+.notes{
+    background-color: #b3c9d6;
+    padding: 35px;
+    margin: 15px;
+    border-radius: 15px;
+    border: #3E7F9B dotted 5px;
+}
+
+/* contact page*/
+#contact_form {
+    margin: 30px;
+}
+
+/* footer */
+footer {
+    background-color: #3E7F9B;
+    color: white; 
+    text-align: center; 
+    padding: 15px;
 }
